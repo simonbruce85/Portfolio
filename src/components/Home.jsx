@@ -16,7 +16,7 @@ function Home() {
         <div className="ml-[-15px]">
           <ul>
             <li className="flex">
-              <Link to="work" smooth={true} duration={500} className=" group px-3 py-3 my-2 flex items-center rounded font-medium hover:scale-110 " id="button-contact">
+              <Link to="contact" smooth={true} duration={500} className=" group px-3 py-3 my-2 flex items-center rounded font-medium hover:scale-110 " id="button-contact">
                 Contact Me
               </Link>
             </li>
