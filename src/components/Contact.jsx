@@ -19,9 +19,28 @@ const Contact = () => {
         </div>
       </form>
       <ul className='flex p-6'>
-        <li className='hover:scale-110'><LinkedinLogo style={{ width: "100px" }} /> </li>
+        {/*Element List*/}
+        <li className='hover:scale-110'>
+          <a
+            href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"
+            target='_blank'
+            id="icon-color"
+          >
+            <LinkedinLogo style={{ width: "100px" }} />
+          </a>
+        </li>
+        {/*Element List*/}
         <li className='hover:scale-110'><GmailLogo style={{ width: "100px" }}/></li>
-        <li className='hover:scale-110'> <GitLogo style={{ width: "100px" }}/></li>
+        {/*Element List*/}
+        <li className='hover:scale-110'>
+          <a
+          className=" flex justify-between items-center w-full text-gray-300"
+          href="https://github.com/simonbruce85"
+          target='_blank'
+          >
+            <GitLogo style={{ width: "100px" }} />
+          </a>
+        </li>
       </ul>
       <div className='w-full bg-[#041F31] flex justify-center items-center  flex-col'>
         <ul className='flex justify-center items-center text-gray-300 pb-2'>
