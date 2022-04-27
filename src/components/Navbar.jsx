@@ -7,8 +7,6 @@ import {
 } from "react-icons/fa";
 
 import { Link } from 'react-scroll'
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -34,15 +32,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} >
-            Skills
-          </Link>
-        </li>
-        <li>
           <Link to="work" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500} >
+            Skills
+          </Link>
+        </li>
+  
         <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
@@ -74,13 +73,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -91,7 +90,7 @@ const Navbar = () => {
       {/*  Social Bar */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 " >
             <a
               className=" flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"
@@ -100,13 +99,14 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 " >
             <a
               className=" flex justify-between items-center w-full text-gray-300"
               href="https://github.com/simonbruce85"
               target='_blank'
+              id="icon-color"
             >
-              Github <FaGithub size={30} />
+              Github <FaGithub size={30}/>
             </a>
           </li>
         </ul>
