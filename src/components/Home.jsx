@@ -1,11 +1,12 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from 'react-scroll'
+import Astronaut from "../assets/iconweb.webp"
 
 function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-[#041F31]">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+    <div name="home" className="w-full md:h-screen  bg-[#041F31] grid md:grid-cols-2 ">
+      <div className="max-w-[1000px] mx-auto pt-64 md:pt-8  md:pl-64 px-8 flex flex-col justify-center w-full h-full">
+        <div clasName="flex-col">
         <p className="text-[#ccd6f6]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] py-1" id="owner-name">
           Simon Bruce
@@ -21,8 +22,12 @@ function Home() {
               </Link>
             </li>
           </ul>
+          </div>
         </div>
       </div>
+      <div className="mx-auto pr-32 flex flex-col justify-center">
+          <img src={Astronaut}/>
+        </div>
     </div>
   );
 }

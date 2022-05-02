@@ -5,8 +5,8 @@ import { ReactComponent as GitLogo } from "../assets/icongit.svg"
 
 const Contact = () => {
   return (
-    <div name="contact" className='w-full h-screen bg-[#041F31] flex justify-center items-center pt-24 pb-2 flex-col'>
-      <form method='POST' action='https://getform.io/f/41313570-0c35-4cb2-8973-19e16667cc01' className='flex flex-col max-w-[600px] w-full h-full'>
+    <div name="contact" className='w-full h-screen bg-[#041F31]  flex justify-center items-center pt-24 pb-2 flex-col'>
+      <form method='POST' action='https://getform.io/f/41313570-0c35-4cb2-8973-19e16667cc01' className='flex px-8 md:px-0 flex-col max-w-[600px] w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#00F5A0] text-gray-300'>Contact</p>
           <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - simon.bruce28@hotmail.com</p>
@@ -18,7 +18,7 @@ const Contact = () => {
           <button className=' px-3 py-3 my-2 items-center rounded font-medium hover:scale-110 ' id="button-contact">Let's Collaborate</button>
         </div>
       </form>
-      <ul className='flex p-6'>
+      <ul className='flex pt-12 p-6'>
         {/*Element List*/}
         <li className='hover:scale-110'>
           <a
@@ -43,15 +43,7 @@ const Contact = () => {
         </li>
       </ul>
       <div className='w-full bg-[#041F31] flex justify-center items-center  flex-col'>
-        <ul className='flex justify-center items-center text-gray-300 pb-2'>
-          <li>
-            Projects
-          </li>
-          <li>
-            Contact
-          </li>
-        </ul>
-        <p className='text-gray-300 pt-2 pb-8'> Simon Bruce - Computer Engineer</p>
+        <p className='text-gray-300 pt-4 pb-8'> Simon Bruce - Computer Engineer</p>
       </div>
     </div>
     
