@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-scroll'
+import Typed from 'react-typed';
 import Astronaut from "../assets/iconweb.webp"
 
 function Home() {
@@ -11,9 +12,13 @@ function Home() {
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] py-1 " id="owner-name">
             Simon Bruce
           </h1>
-          <h2 className=" text-[#ccd6f6] py-3">
-            Computer Engineer and Front-end Developer
-          </h2>
+          <h2
+            className='text-[#ccd6f6] py-3'>I am a <Typed
+            strings={['Computer Engineer', 'Front-End Developer']}
+            typeSpeed={50}
+            backSpeed={50}
+            loop
+          /></h2>
           <div className="ml-[-15px]">
             <ul>
               <li className="flex">
