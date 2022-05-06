@@ -20,7 +20,7 @@ const ProjectCard = (props) => {
           <p>{props.description}</p>
         </div>
         <div className='text-center flex pl-6 pt-4 pb-8'>
-          <a href={props.demo} >
+          <a href={props.demo} target="_blank" >
             <button className='text-center rounded-lg h-8 px-4 m-2 bg-white text-gray-700 font-bold text-md' id="button-contact">Demo</button>
           </a>
           <a href={props.github} target="_blank">
