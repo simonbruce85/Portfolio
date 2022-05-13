@@ -29,7 +29,9 @@ function Home() {
             </ul>
           </div>
         </div>
-          <img className=' md:pl-8 justify-center mx-auto' src={Astronaut} />
+        <div className=' md:pl-8 justify-center mx-auto flex-col flex'>
+          <img  src={Astronaut} />
+        </div>
       </div>
     </div>
   );
