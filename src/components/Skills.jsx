@@ -5,6 +5,7 @@ import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
 import Github from '../assets/github.png'
+import Firebase from '../assets/firebase.png'
 
 function Skills() {
     return (
@@ -41,6 +42,10 @@ function Skills() {
                     <div className=' shadow-[#040c16] bg-[#041F31] pt-2 hover:scale-110 duration-5000'>
                         <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                         <p className='my-4'>Tailwind</p>
+                    </div>
+                    <div className=' shadow-[#040c16] bg-[#041F31] pt-2 hover:scale-110 duration-5000'>
+                        <img className='w-20 mx-auto' src={Firebase} alt="HTML icon" />
+                        <p className='my-4'>Firebase</p>
                     </div>
                 </div>
             </div>
