@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Backimage from "../assets/backgr.jpg"
+import { useInView } from 'react-intersection-observer'
+
 
 function About() {
+
+
   return (
-    <div name="about" className="w-full h-full min-h-screen  bg-[#793434] text-gray-300 " style={{ backgroundImage: `url(${Backimage})` }} id="backimgabout">
-      <div className="flex flex-col justify-center items-center py-48 ">
+    <div  name="about" className="w-full h-full min-h-screen  bg-[#793434] text-gray-300 bg-cover bg-fixed " style={{ backgroundImage: `url(${Backimage})` }} id="backimgabout">
+      <div on className="flex flex-col justify-center items-center py-48 ">
         <div className="max-w-[1000px] w-full gap-8">
           <div className="text-left pb-8 pl-4">
             <p className="text-4xl font-bold border-b-4 inline border-[#00F5A0] ">
