@@ -1,0 +1,49 @@
+{
+    "portfolio": [
+        {
+            "id": "0",
+            "name": "Netflix Clone",
+            "description": "Netflix clone application using Firebase to integrate authentication and save information about each individual user in firebase",
+            "techs": "React - Firebase - Movie Api",
+            "img": "https://i.ibb.co/tBTBs3k/netflix-clone.png",
+            "github": "https://github.com/simonbruce85/netflix-clone",
+            "demo": "https://netflix-clone-sime.netlify.app/"
+        },
+        {
+            "id": "1",
+            "name": "Crypto Price Tracker",
+            "description": "Website oriented to track the price of thousands of cryptocurrencies using CoinGecko API",
+            "techs": "React - JavaScript - Tailwind",
+            "img": "https://i.ibb.co/42qmCQN/crypto-price.jpg",
+            "github":"https://github.com/simonbruce85/cryptoAPI",
+            "demo": "https://crypto-price-api.netlify.app"
+        },
+        {
+            "id": "2",
+            "name": "To-do List",
+            "description": "To-do List application based on firebase interactiont to add, modify and delete tasks",
+            "techs": "React - JavaScript - Firebase",
+            "img": "https://i.ibb.co/wNvLZJH/Todo-List.png",
+            "github":"https://github.com/simonbruce85/TodoFirebase",
+            "demo": "https://simons-to-do-list.netlify.app/"
+        },
+        {
+            "id": "3",
+            "name": "Growing Beyond Earth",
+            "description": "Finalists in the NASA sponsored contest 'Growing Beyond Earth' as the FIU team",
+            "techs": "Arduino - Fusion 360 - Hardware",
+            "img": "https://simonb1.imgbb.com/",
+            "github":"/",
+            "demo":"https://makeprojects.com/project/fiu-autonomous-farmer---year-3-collegiate-entry"
+        },
+        {
+            "id": "4",
+            "name": "For3x Funding",
+            "description": "Landing pafe for For3x Funding, a NFT project with solidity integrated",
+            "techs": "HTML - CSS - SASS",
+            "img": "https://i.ibb.co/QHThvTH/For3x-Funding.jpg",
+            "github": "https://github.com/simonbruce85/Web",
+            "demo":"https://for3x-funding.netlify.app"
+        }
+    ]
+}

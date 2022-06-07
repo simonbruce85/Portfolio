@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from 'react-scroll'
 import Typed from 'react-typed';
 import Astronaut from "../assets/iconweb.webp"
-import Logo from './Logo'
 
 function Home() {
   return (
@@ -32,7 +31,6 @@ function Home() {
         </div>
         <div className=' md:pl-8 justify-center mx-auto flex-col flex'>
           <img  src={Astronaut} />
-          <Logo/>
         </div>
       </div>
     </div>
