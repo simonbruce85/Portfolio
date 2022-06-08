@@ -8,30 +8,31 @@ const Work = () => {
 
   const slideLeft = () =>{
     var slider = document.getElementById('slider')
-    slider.scrollLeft = slider.scrollLeft - 500;
+    slider.scrollLeft = slider.scrollLeft - 400;
 }
 
 const slideRight = () =>{
     var slider = document.getElementById('slider')
-    slider.scrollLeft = slider.scrollLeft + 500;
+    slider.scrollLeft = slider.scrollLeft + 400;
 }
 
   return (
-    <div name='work' className='w-full text-gray-300 bg-[#041F31]'>
+    <div name='work' className='w-full h-full min-h-screen text-gray-300 bg-[#041F31]'>
       <div  className='max-w-[1000px] mx-auto py-32 p-4 flex flex-col justify-center '>
         <div className='pb-8'>
-          <p className='text-4xl font-bold text-gray-300 inline border-b-4 border-[#00F5A0]  '>Projects</p>
+          <p className='text-4xl font-bold text-gray-300 inline border-b-4 border-[#00F5A0]'>Projects</p>
           <p className='py-6'>Check out some of my recent work!</p>
         </div>
-        <div className="flex items-center group md:relative">
-        <MdChevronLeft onClick={slideLeft} className='bg-white left-0 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 sm:hidden  group-hover:block' size={40}/>
-        <div id={'slider' } className=" w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide ">
+        <div className=" flex justify-center items-center group"  data-aos="fade-up"
+            data-aos-duration="2000">
+        <MdChevronLeft onClick={slideLeft} className='opacity-50 hover:opacity-100 cursor-pointer z-10  group-hover:block' size={40}/>
+        <div id={'slider' } className=" w-[90%] h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide ">
             {portfolioData.portfolio.map((item) => (
               <ProjectCard key={item.id} project={item}/>
             
             ))}
         </div>
-        <MdChevronRight onClick={slideRight} className='bg-white right-0 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer sm:hidden group-hover:block' size={40}/>
+        <MdChevronRight onClick={slideRight} className=' opacity-50 hover:opacity-100 cursor-pointer  group-hover:block' size={40}/>
         </div>
       </div>
     </div>
