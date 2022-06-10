@@ -23,12 +23,12 @@ const slideRight = () =>{
           <p className='text-4xl font-bold text-gray-300 inline border-b-4 border-[#00F5A0]'>Projects</p>
           <p className='py-6'>Check out some of my recent work!</p>
         </div>
-        <div className=" flex justify-center items-center group"  data-aos="fade-up"
+        <div className=" flex justify-center items-center group "  data-aos="fade-up"
             data-aos-duration="2000">
         <MdChevronLeft onClick={slideLeft} className='opacity-50 hover:opacity-100 cursor-pointer z-10  group-hover:block' size={40}/>
         <div id={'slider' } className=" w-[90%] h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide ">
             {portfolioData.portfolio.map((item) => (
-              <ProjectCard key={item.id} project={item}/>
+              <ProjectCard key={item.id} project={item} />
             
             ))}
         </div>

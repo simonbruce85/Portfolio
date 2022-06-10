@@ -30,9 +30,9 @@
         {
             "id": "3",
             "name": "Growing Beyond Earth",
-            "description": "Finalists in the NASA sponsored contest 'Growing Beyond Earth' as the FIU team",
+            "description": "Growing Beyond Earth Innovation Award winners in the NASA sponsored contest ''Growing Beyond Earth'' as the FIU team",
             "techs": "Arduino - Fusion 360 - Hardware",
-            "img": "https://simonb1.imgbb.com/",
+            "img": "https://i.ibb.co/q9Fn3TV/GBE.jpg",
             "github":"/",
             "demo":"https://makeprojects.com/project/fiu-autonomous-farmer---year-3-collegiate-entry"
         },
