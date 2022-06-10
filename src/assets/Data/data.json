@@ -23,7 +23,7 @@
             "name": "To-do List",
             "description": "To-do List application based on firebase interactiont to add, modify and delete tasks",
             "techs": "React - JavaScript - Firebase",
-            "img": "https://i.ibb.co/wNvLZJH/Todo-List.png",
+            "img": "https://i.ibb.co/Fs5wWM0/todolist.png",
             "github":"https://github.com/simonbruce85/TodoFirebase",
             "demo": "https://simons-to-do-list.netlify.app/"
         },

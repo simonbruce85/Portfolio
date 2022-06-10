@@ -42,7 +42,7 @@ function Skills() {
             data-aos-duration="500"
             data-aos-delay="200"
           >
-            <div className=" shadow-[#040c16] md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-[#040c16] md:max-w-fit rounded-md bg-[#020c1b] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
               <p className="my-4">CSS</p>
             </div>
