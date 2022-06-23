@@ -17,6 +17,7 @@ function Home() {
             data-aos-easing="linear"
             data-aos-duration="500"
             data-aos-delay="600"
+            data-aos-once="true"
           >
             Hello, my name is
           </p>
@@ -27,6 +28,7 @@ function Home() {
             data-aos-easing="linear"
             data-aos-duration="500"
             data-aos-delay="800"
+            data-aos-once="true"
           >
             Simon Bruce
           </h1>
@@ -36,6 +38,7 @@ function Home() {
             data-aos-easing="linear"
             data-aos-duration="500"
             data-aos-delay="1000"
+            data-aos-once="true"
           >
             I am a{" "}
             <Typed
@@ -50,14 +53,14 @@ function Home() {
             data-aos-easing="linear"
             data-aos-delay="1200"
             data-aos-duration="500"
-            className="py-4 hover:scale-110"
+            data-aos-once="true"
+            className="py-4"
           >
-            <button className="hover:scale-110">
+            <button className="px-4 py-2 my-2 items-center rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
               <Link
                 to="contact"
                 smooth={true}
                 duration={500}
-                className="p-3 my-2 items-center rounded font-medium hover:scale-110 cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]"
               >
                 Contact Me
               </Link>
@@ -65,11 +68,12 @@ function Home() {
           </div>
         </div>
         <div
-          className=" md:pl-8 justify-center mx-auto flex-col flex"
-          data-aos="zoom-in"
-          data-aos-easing="linear"
+          className=" md:pl-8 justify-center flex-col flex"
+          data-aos="fade-up"
           data-aos-delay="1400"
-          data-aos-duration="5000"
+          data-aos-duration="500"
+          data-aos-once="true" 
+        
         >
           <img src={Astronaut} />
         </div>

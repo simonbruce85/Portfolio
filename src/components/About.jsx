@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 import Backimage from "../assets/backgr.jpg";
+import Pdf from "./././../";
+import ProjectCard from "./ProjectCard";
 
 function About() {
   return (
@@ -13,6 +15,7 @@ function About() {
       <div
         data-aos="fade-up"
         data-aos-duration="3000"
+        data-aos-once="true"
         className=" flex-col justify-center items-center py-48 max-w-[1000px] w-full"
       >
         <div className=" text-gray-300">
@@ -45,9 +48,12 @@ function About() {
             </p>
           </div>
           <div className="py-6 flex">
-              <a href="https://github.com/michalsnik/aos" target="blank" className="px-4 py-2 min-w- my-2 items-center rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-110">
-                  Resume
-              </a>
+              <div className="px-4 py-2 my-2 items-center rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
+              <a href={process.env.PUBLIC_URL + "/resume.pdf"} target ="_blank">
+            Resume
+        </a>
+              </div>
+              
           </div>
         </div>
       </div>
