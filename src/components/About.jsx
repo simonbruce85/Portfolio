@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-scroll";
 import Backimage from "../assets/backgr.jpg";
-import Pdf from "./././../";
-import ProjectCard from "./ProjectCard";
 
 function About() {
   return (
