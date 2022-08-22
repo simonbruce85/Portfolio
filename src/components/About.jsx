@@ -30,11 +30,11 @@ function About() {
             </p>
             <p className="text-justify">
               Since the beginning of my degree, I have been learning different
-              programming languages such as Java, C, and C++, but I am very
+              programming languages such as Java and C, but I am very
               passionate about websites and web applications. Therefore, I am
               now focused on web development, learning more every day about
-              HTML, CSS, Javascript, and React, and planning to start studying
-              in the near future back-end development to become a full-stack
+              HTML, CSS, Javascript, and React, and studying to apply the knowledge of Java
+              to back-end development with Spring Boot and become a full-stack
               developer.
             </p>
             <p className="text-justify">
@@ -45,11 +45,11 @@ function About() {
             </p>
           </div>
           <div className="py-6 flex">
-              <div className="px-4 py-2 my-2 items-center rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
               <a href={process.env.PUBLIC_URL + "/resume.pdf"} target ="_blank">
+              <div className="px-4 py-2 my-2 items-center rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
             Resume
-        </a>
               </div>
+        </a>
               
           </div>
         </div>

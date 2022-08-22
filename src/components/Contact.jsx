@@ -15,7 +15,7 @@ const Contact = () => {
               Contact
             </p>
             <p className="text-gray-300 pt-4">
-              Submit the form below or email me to simon.bruce28@hotmail.com
+              Submit the form below or email me to <strong>simonbrucepuma@gmail.com</strong>
             </p>
           </div>
           <form
