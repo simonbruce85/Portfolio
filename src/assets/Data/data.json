@@ -5,7 +5,7 @@
             "name": "Animal Hospital Patient Record",
             "description": "Web Application used by an animal hospital to register patients' and owners' information and relevant data about visits and health condition",
             "techs": "React - Firebase - Tailwind",
-            "img": "https://i.ibb.co/QFsNk0V/resize.jpg",
+            "img": "https://i.ibb.co/RQhSTxv/Screen-Shot-2022-08-22-at-12-02-50-AM-60.png",
             "github": "https://github.com/simonbruce85/AnimalHospital",
             "demo": "https://kaninos-vet-clinic.netlify.app/"
         },

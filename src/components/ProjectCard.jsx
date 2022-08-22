@@ -7,7 +7,7 @@ const ProjectCard = (project) => {
       <div className=' '>
       <img id="imgWork" className='bg-fixed h-[250px] rounded-t-xl' src={project.project.img} alt={project.project.name} />
       </div>
-      <div className='bg-[#222525]  rounded-b-lg min-h-[300px]  flex flex-col p-4 justify-between shadow-md hover:shadow-xl shadow-[#0f0f0f] '>
+      <div className='bg-[#222525]  rounded-b-lg min-h-[300px] max-w-[495px]  flex flex-col p-4 justify-between shadow-md hover:shadow-xl shadow-[#0f0f0f] '>
         <p className='text-2xl font-bold text-white whitespace-normal'>
           {project.project.name}
         </p>
