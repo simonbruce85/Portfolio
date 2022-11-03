@@ -25,17 +25,15 @@ function About() {
         <div className="max-w-[1000px] w-full px-4">
           <div className="text-xl text-gray-300">
             <p className="text-justify">
-              Hello, I am Simon. I am a computer engineering student at Florida
-              International University, graduating in Summer 2022.
+              Hello, I am Simon. I am a computer engineering graduated from Florida
+              International University and a Full-Stack developer
             </p>
             <p className="text-justify">
               Since the beginning of my degree, I have been learning different
               programming languages such as Java and C, but I am very
               passionate about websites and web applications. Therefore, I am
-              now focused on web development, learning more every day about
-              HTML, CSS, Javascript, and React, and studying to apply the knowledge of Java
-              to back-end development with Spring Boot and become a full-stack
-              developer.
+              now focused on web development, learning more every day about front-end and back-end development
+              from HTML, CSS, Javascript, and React, to Java, Spring Boot, SQL and PostgreSQL.
             </p>
             <p className="text-justify">
               I believe in lifelong learning and continuous improvement, so here

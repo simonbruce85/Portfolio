@@ -8,6 +8,11 @@ import Github from "../assets/github.png";
 import Firebase from "../assets/firebase.png";
 import Java from "../assets/java.png";
 import C from "../assets/c.png";
+import Docker from "../assets/docker.png";
+import Spring from "../assets/spring.png";
+import Postgres from "../assets/postgres.png";
+import Postman from "../assets/postman.png";
+import AWS from "../assets/aws.png";
 function Skills() {
   return (
     <div
@@ -20,7 +25,7 @@ function Skills() {
           <p className="text-4xl font-bold inline border-b-4 border-[#00F5A0]">
             Skills
           </p>
-          <p className="py-4">Technologies I've exposed to</p>
+          <p className="py-4">Technologies I've been exposed to</p>
         </div>
 
         {/*Card Container*/}
@@ -29,6 +34,32 @@ function Skills() {
             data-aos-duration="500"
             data-aos-delay="300"
             data-aos-once="true">
+          <div
+            className="justify-center flex"
+          >
+            <div className=" shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
+              <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+              <p className="my-4">React</p>
+            </div>
+          </div>
+          <div
+            className="justify-center flex"
+          >
+            <div className=" shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
+              <img className="w-20 mx-auto " src={Java} alt="HTML icon" />
+              <p className="my-4">Java</p>
+            </div>
+          </div>
+          <div
+            className="justify-center flex"
+          >
+            <div className="  shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500">
+              <div className="h-full flex flex-col justify-end">
+                  <img className="w-20 mx-auto mb-4" src={Spring} alt="Spring Boot icon" />
+                <p className="my-4">Spring Boot</p>
+              </div>
+            </div>
+          </div>
           <div
             className="justify-center flex"
           >
@@ -57,8 +88,36 @@ function Skills() {
             className="justify-center flex"
           >
             <div className=" shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
-              <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
-              <p className="my-4">React</p>
+              <img className="w-20 mx-auto" src={Postgres} alt="HTML icon" />
+              <p className="my-4">PostgreSQL</p>
+            </div>
+          </div>
+          <div
+            className="justify-center flex"
+          >
+            <div className=" shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
+              <img className="w-20 mx-auto" src={AWS} alt="HTML icon" />
+              <p className="my-4">AWS</p>
+            </div>
+          </div>
+          <div
+            className="justify-center flex"
+          >
+            <div className="  shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500">
+              <div className="h-full flex flex-col justify-end">
+                  <img className="w-20 mx-auto mb-4" src={Docker} alt="Spring Boot icon" />
+                <p className="my-4">Docker</p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="justify-center flex"
+          >
+            <div className="  shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500">
+              <div className="h-full flex flex-col justify-end">
+                  <img className="w-20 mx-auto" src={Postman} alt="Spring Boot icon" />
+                <p className="my-4">Postman</p>
+              </div>
             </div>
           </div>
           <div
@@ -83,14 +142,6 @@ function Skills() {
             <div className=" shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={Firebase} alt="HTML icon" />
               <p className="my-4">Firebase</p>
-            </div>
-          </div>
-          <div
-            className="justify-center flex"
-          >
-            <div className=" shadow-md hover:shadow-xl shadow-[#0f0f0f]  md:max-w-fit rounded-md bg-[#0c2f44] p-8  hover:-translate-y-2 duration-500 ">
-              <img className="w-20 mx-auto" src={Java} alt="HTML icon" />
-              <p className="my-4">Java</p>
             </div>
           </div>
           <div

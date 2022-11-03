@@ -2,6 +2,15 @@
     "portfolio": [
         {
             "id": "0",
+            "name": "Animal Hospital Patient Record V2",
+            "description": "Full-Stack Web Application used by an animal hospital to register patients' and owners' information and relevant data. Back-end and Front-end hosted on AWS using elastic beanstalk and RDS",
+            "techs": "React - Spring Boot - PostgreSQL - AWS",
+            "img": "https://i.ibb.co/gZHrKS5/V2-copy.png",
+            "github": "https://github.com/simonbruce85/kaninosca",
+            "demo": "http://kaninoscaenv-env.eba-3cwbfzxq.us-east-2.elasticbeanstalk.com/"
+        },
+        {
+            "id": "1",
             "name": "Animal Hospital Patient Record",
             "description": "Web Application used by an animal hospital to register patients' and owners' information and relevant data about visits and health condition",
             "techs": "React - Firebase - Tailwind",
@@ -10,7 +19,7 @@
             "demo": "https://kaninos-vet-clinic.netlify.app/"
         },
         {
-            "id": "1",
+            "id": "2",
             "name": "Netflix Clone",
             "description": "Netflix clone application using Firebase to integrate authentication and save information about each individual user in firebase",
             "techs": "React - Firebase - Movie Api",
@@ -19,7 +28,7 @@
             "demo": "https://netflix-clone-sime.netlify.app/"
         },
         {
-            "id": "2",
+            "id": "3",
             "name": "To-do List",
             "description": "To-do List application based on firebase interactiont to add, modify and delete tasks",
             "techs": "React - JavaScript - Firebase",
@@ -27,7 +36,7 @@
             "github":"https://github.com/simonbruce85/TodoFirebase",
             "demo": "https://simons-to-do-list.netlify.app/"
         },{
-            "id": "3",
+            "id": "4",
             "name": "Growing Beyond Earth",
             "description": "Growing Beyond Earth Innovation Award winners in the NASA sponsored contest ''Growing Beyond Earth'' as the FIU team",
             "techs": "Arduino - Fusion 360 - Hardware",
@@ -36,7 +45,7 @@
             "demo":"https://makeprojects.com/project/fiu-autonomous-farmer---year-3-collegiate-entry"
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Crypto Price Tracker",
             "description": "Website oriented to track the price of thousands of cryptocurrencies using CoinGecko API",
             "techs": "React - JavaScript - Tailwind",
