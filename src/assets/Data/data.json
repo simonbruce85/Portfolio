@@ -4,7 +4,7 @@
             "id": "0",
             "name": "Animal Hospital Patient Record V2",
             "description": "Full-Stack Web Application used by an animal hospital to register patients' and owners' information and relevant data. Back-end and Front-end hosted on AWS using elastic beanstalk and RDS",
-            "techs": "React - Spring Boot - PostgreSQL - AWS",
+            "techs": "React - Spring Boot - Postgres - AWS",
             "img": "https://i.ibb.co/gZHrKS5/V2-copy.png",
             "github": "https://github.com/simonbruce85/kaninosca",
             "demo": "http://kaninoscaenv-env.eba-3cwbfzxq.us-east-2.elasticbeanstalk.com/"

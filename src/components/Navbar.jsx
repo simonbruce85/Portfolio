@@ -10,7 +10,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#041F31] text-white z-10">
+    <div>
+    <div className=" w-full h-[80px] flex justify-center items-center px-4 bg-gradient-to-r from-[#061326] via-[#040c18] to-[#040c18] text-gray-300 z-10">
+      <div className="flex justify-between max-w-[1300px] w-full">
       <div>
         <Link to="home" smooth={true} duration={500}>
           <img
@@ -75,6 +77,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      </div>
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
@@ -117,9 +120,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      
-      {/*  Social Bar */}
-      <div className="hidden lg:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 shadow-sm shadow-[#111111] bg-[#0c2f44]">
+    </div>
+    <div className="mx-4">
+      {/* Social Bar */}
+      <div className="hidden lg:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 shadow-sm shadow-[#111111] bg-[#132135]">
         <a className="fill-gray-300 stroke-gray-300 hover:fill-[#00f5c4] hover:stroke-[#00f5c4]   pt-4"
         href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"
         target="_blank">
@@ -131,8 +135,10 @@ const Navbar = () => {
         <Github className=" cursor-pointer"/>
         </a>
       </div>
-      {/*  Social Bar Ends*/}
+      {/*  Social Bar Ends */}
     </div>
+    </div>
+    
   );
 };
 

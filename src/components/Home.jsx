@@ -7,9 +7,9 @@ function Home() {
   return (
     <div
       name="home"
-      className="w-full h-full bg-[#041F31] pb-16 pt-32 px-4 mx-auto flex justify-center min-h-screen"
+      className="w-full h-full min-h-screen bg-gradient-to-r from-[#061326] via-[#040c18] to-[#040c18] pb-16 pt-16 md:pt-0 px-4 mx-auto flex justify-center "
     >
-      <div className="max-w-[1000px] grid md:grid-cols-2 ">
+      <div className="max-w-[1300px] md:flex justify-between ">
         <div className="flex-col flex justify-center">
           <p
             className="text-[#ccd6f6]"
@@ -75,7 +75,7 @@ function Home() {
           data-aos-once="true" 
         
         >
-          <img src={Astronaut} />
+          <img src={Astronaut} className=""/>
         </div>
       </div>
     </div>

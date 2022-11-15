@@ -3,18 +3,18 @@ import React from 'react'
 const ProjectCard = (project) => {
 
   return (
-    <div className=' w-full pt-4 md:w-[40%] inline-block p-2 rounded-b hover:-translate-y-1 duration-500 ' >
+    <div className=' w-full pt-4 md:w-[31%] inline-block p-2 rounded-b hover:-translate-y-1 duration-500 ' >
       <div className=' '>
       <img id="imgWork" className='bg-fixed h-[250px] rounded-t-xl' src={project.project.img} alt={project.project.name} />
       </div>
-      <div className='bg-[#222525]  rounded-b-lg min-h-[300px] max-w-[495px]  flex flex-col p-4 justify-between shadow-md hover:shadow-xl shadow-[#0f0f0f] '>
-        <p className='text-2xl font-bold text-white whitespace-normal'>
+      <div className='bg-[#132135]  rounded-b-lg min-h-[300px] max-w-[495px]  flex flex-col p-4 justify-between shadow-sm  shadow-gray-300 '>
+        <p className='text-2xl font-bold text-gray-300 whitespace-normal'>
           {project.project.name}
         </p>
-        <div className='flex justify-between'>
+        <div className='flex justify-between whitespace-normal'>
           <p>{project.project.techs}</p>
         </div>
-        <div className='whitespace-normal min-h-[100px] text-justify mr-2'>
+        <div className='whitespace-normal min-h-[100px] text-justify '>
           <p >{project.project.description}</p>
         </div>
         <div className='text-center flex'>
