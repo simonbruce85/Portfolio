@@ -15,8 +15,47 @@ const Contact = () => {
               Contact
             </p>
             <p className="text-gray-300 pt-4">
-              Don't hesitate to email me to <strong>simonbrucepuma@gmail.com</strong>
+              Don't hesitate to submit the form below or email me to  <strong>simonbrucepuma@gmail.com</strong>
             </p>
+          </div>
+          <div className="w-full flex justify-center pb-8 md:pb-16">
+          <form
+            method="POST"
+            data-netlify="true"
+            data-netlify-recaptcha="true"
+            className="flex px-8 md:px-0 flex-col w-full max-w-[600px]"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-once="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <input
+              className="bg-transparent rounded border p-2 text-[#ccd6f6]"
+              type="text"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              className="my-4 p-2 bg-transparent rounded border text-[#ccd6f6]"
+              type="email"
+              placeholder="Email"
+              name="email"
+            />
+            <textarea
+              className="bg-transparent rounded border p-2 text-[#ccd6f6]"
+              name="message"
+              rows="8"
+              placeholder="Message"
+            ></textarea>
+            <div className="flex justify-center pt-2">
+              <button
+                type="submit"
+                className=" p-3 my-2 items-center rounded font-medium hover:scale-105 bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]"
+              >
+                Let's Collaborate
+              </button>
+            </div>
+          </form>
           </div>
         </div>
         <div className="flex flex-col w-full h-full min-h-[15vh] md:min-h-[30vh]justify-end">

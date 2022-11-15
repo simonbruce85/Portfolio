@@ -10,7 +10,6 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div>
     <div className=" w-full h-[80px] flex justify-center items-center px-4 bg-gradient-to-r from-[#061326] via-[#040c18] to-[#040c18] text-gray-300 z-10">
       <div className="flex justify-between max-w-[1300px] w-full">
       <div>
@@ -91,7 +90,7 @@ const Navbar = () => {
       {/* Mobile Menus*/}
       <ul
         className={
-           `absolute ${nav?"translate-x-0":"translate-x-full"} ease-in-out duration-500 top-0 right-0 rounded-lg w-1/2 h-fit bg-[#041F31] pt-16 flex flex-col shadow-md pb-4`
+           `absolute md:hidden ${nav?"translate-x-0":"translate-x-full"} ease-in-out duration-500 top-0 right-0 rounded-lg w-1/2 h-fit bg-[#041F31] pt-16 flex flex-col shadow-md pb-4`
         }
       >
         <li className=" justify-center flex py-2">
@@ -120,10 +119,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-    </div>
+
     <div className="mx-4">
       {/* Social Bar */}
-      <div className="hidden lg:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 shadow-sm shadow-[#111111] bg-[#132135]">
+      <div className="hidden lg:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 mx-4 left-0 shadow-sm shadow-[#111111] bg-[#132135]">
         <a className="fill-gray-300 stroke-gray-300 hover:fill-[#00f5c4] hover:stroke-[#00f5c4]   pt-4"
         href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"
         target="_blank">
