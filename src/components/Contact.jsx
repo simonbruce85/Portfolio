@@ -10,7 +10,7 @@ const Contact = () => {
     >
       <div className="max-w-[1300px] w-full h-full flex flex-col justify-center">
         <div className="h-full flex flex-col md:pt-24 justify-end ">
-          <div className="pb-8 px-8 md:px-0 ">
+          <div className="pb-8 px-8">
             <p className="text-4xl font-bold inline border-b-4 border-[#00F5A0] text-gray-300">
               Contact
             </p>

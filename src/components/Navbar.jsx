@@ -125,7 +125,7 @@ const Navbar = () => {
 
       <div className="mx-4">
         {/* Social Bar */}
-        <div className="hidden lg:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 mx-4 left-0 shadow-sm shadow-[#111111] bg-[#132135]">
+        <div className="hidden xl:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 mx-4 left-0 shadow-sm shadow-[#111111] bg-[#132135]">
           <a
             className="fill-gray-300 stroke-gray-300 hover:fill-[#00f5c4] hover:stroke-[#00f5c4]   pt-4"
             href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"

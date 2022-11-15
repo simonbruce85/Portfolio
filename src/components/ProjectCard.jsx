@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectCard = (project) => {
 
   return (
-    <div className=' w-full pt-4 md:w-[31%] inline-block p-2 rounded-b hover:-translate-y-1 duration-500 ' >
+    <div className=' w-full pt-4  md:w-[70%] lg:w-[40%] xl:w-[31%] inline-block p-2 rounded-b hover:-translate-y-1 duration-500 ' >
       <div className=' '>
       <img id="imgWork" className='bg-fixed h-[250px] rounded-t-xl' src={project.project.img} alt={project.project.name} />
       </div>
