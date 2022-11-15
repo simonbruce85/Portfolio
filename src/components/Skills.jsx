@@ -32,7 +32,6 @@ function Skills() {
         <div className="w-full grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-4 gap-4 text-center py-8" data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="500"
-            data-aos-delay="300"
             data-aos-once="true">
           <div
             className="justify-center flex"

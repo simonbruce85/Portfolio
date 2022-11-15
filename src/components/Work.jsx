@@ -24,7 +24,7 @@ const slideRight = () =>{
           <p className='py-6'>Check out some of my recent work!</p>
         </div>
         <div className=" flex justify-center items-center group "  data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="500"
             data-aos-once="true">
         <MdChevronLeft onClick={slideLeft} className='opacity-50 hover:opacity-100 cursor-pointer  group-hover:block' size={40}/>
         <div id={'slider' } className=" w-[90%] h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide">
