@@ -94,7 +94,7 @@ const Navbar = () => {
       <ul
         className={`absolute md:hidden ${
           nav ? "translate-x-0" : "translate-x-full"
-        } ease-in-out duration-500 top-0 right-0 rounded-lg w-1/2 h-fit bg-[#041F31] pt-16 flex flex-col shadow-md pb-4`}
+        } ease-in-out duration-500 top-0 right-0 rounded-lg w-1/2 h-screen bg-[#040c18] pt-16 flex flex-col shadow-md pb-4`}
       >
         <li className=" justify-center flex py-2">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
@@ -123,7 +123,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="mx-4">
+      <div className="mx-4 z-30">
         {/* Social Bar */}
         <div className="hidden xl:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 mx-4 left-0 shadow-sm shadow-[#111111] bg-[#132135]">
           <a
