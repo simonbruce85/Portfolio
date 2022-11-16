@@ -82,7 +82,7 @@ const Navbar = () => {
       </div>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className={`${nav ? "fixed top-8 right-12":""} md:hidden z-40 `}>
         {!nav ? (
           <FaBars data-aos="flip-left" />
         ) : (
@@ -92,7 +92,7 @@ const Navbar = () => {
 
       {/* Mobile Menus*/}
       <ul
-        className={`absolute md:hidden ${
+        className={`fixed md:hidden z-30 ${
           nav ? "translate-x-0" : "translate-x-full"
         } ease-in-out duration-500 top-0 right-0 rounded-lg w-1/2 h-screen bg-[#040c18] pt-16 flex flex-col shadow-md pb-4`}
       >
