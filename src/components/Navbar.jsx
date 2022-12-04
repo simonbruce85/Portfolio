@@ -7,11 +7,25 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const [visible, setVisible] = useState(false);
+
+  //I was having issues when the mobile menu was outside of the window it was still present and allowed the page to horizontally-scroll, for this reason, I set timeouts to wait until the 
+  //the transition had finished and set the component display:none. Also, before appering again, I had to remove the display: none property, making it appear again and then translating it to the window
+  //for this reason, this set timeouts have been added
+  const handleClick = () => {
+    (nav ? handleVisibility():
+    setVisible(!visible));
+    setTimeout(()=>{
+      setNav(!nav);
+    },50)}
+
+  const handleVisibility = () => setTimeout(() => {
+    setVisible(!visible)
+  }, 300);
 
   return (
     <div className=" w-full h-[80px] flex justify-center items-center px-4 bg-gradient-to-r from-[#061326] via-[#040c18] to-[#040c18] text-gray-300 z-10">
-      <div className="flex justify-between max-w-[1300px] w-full">
+      <div className="flex justify-between max-w-[1300px] w-full ">
         <div>
           <Link to="home" smooth={true} duration={500}>
             <img
@@ -27,13 +41,14 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex ">
           <li
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="300"
+            
           >
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="home" smooth={true} duration={500} className="hover:border-b-4 hover:border-[#00f5c4]">
               Home
             </Link>
           </li>
@@ -42,8 +57,9 @@ const Navbar = () => {
             data-aos-easing="linear"
             data-aos-duration="300"
             data-aos-delay="50"
+            
           >
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500} className="hover:border-b-4 hover:border-[#00f5c4]">
               About
             </Link>
           </li>
@@ -53,7 +69,7 @@ const Navbar = () => {
             data-aos-duration="300"
             data-aos-delay="100"
           >
-            <Link to="work" smooth={true} duration={500}>
+            <Link to="work" smooth={true} duration={500} className="hover:border-b-4 hover:border-[#00f5c4]">
               Projects
             </Link>
           </li>
@@ -63,7 +79,7 @@ const Navbar = () => {
             data-aos-duration="300"
             data-aos-delay="150"
           >
-            <Link to="skills" smooth={true} duration={500}>
+            <Link to="skills" smooth={true} duration={500} className="hover:border-b-4 hover:border-[#00f5c4]" >
               Skills
             </Link>
           </li>
@@ -74,7 +90,7 @@ const Navbar = () => {
             data-aos-duration="300"
             data-aos-delay="200"
           >
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500} className="hover:border-b-4 hover:border-[#00f5c4]">
               Contact
             </Link>
           </li>
@@ -93,8 +109,10 @@ const Navbar = () => {
       {/* Mobile Menus*/}
       <ul
         className={`absolute md:hidden ${
-          nav ? "translate-x-0" : "translate-x-full"
-        } ease-in-out duration-500 top-0 right-0 rounded-lg w-1/2 h-fit bg-[#041F31] pt-16 flex flex-col shadow-md pb-4`}
+          nav ? "translate-x-0 " : "translate-x-full"
+        } ${
+          visible ? "" : "hidden"
+        } ease-in-out duration-500 top-0 right-0 rounded-lg h-screen w-1/2 bg-[#040c18] pt-16 flex flex-col shadow-md pb-4`}
       >
         <li className=" justify-center flex py-2">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
@@ -125,13 +143,13 @@ const Navbar = () => {
 
       <div className="mx-4">
         {/* Social Bar */}
-        <div className="hidden xl:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 mx-4 left-0 shadow-sm shadow-[#111111] bg-[#132135]">
+        <div className="hidden 2xl:flex fixed flex-col top-[50%] h-[100px] justify-between rounded-full px-2 mx-4 left-0 shadow-sm shadow-[#111111] bg-[#132135]">
           <a
             className="fill-gray-300 stroke-gray-300 hover:fill-[#00f5c4] hover:stroke-[#00f5c4]   pt-4"
             href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"
             target="_blank"
           >
-            <Linkedin className=" cursor-pointer" />
+            <Linkedin className=" cursor-pointer " />
           </a>
           <a
             className="text-gray-300 cursor-pointer hover:text-[#00f5c4]  py-4"

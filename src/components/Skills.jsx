@@ -22,7 +22,7 @@ function Skills() {
       {/*Container*/}
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-full h-full md:pt-24">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#00F5A0]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#00f5c4]">
             Skills
           </p>
           <p className="py-4">Technologies I've been exposed to</p>
@@ -36,7 +36,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135]  p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500 w-[150px] rounded-md bg-[#132135]  p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
               <p className="my-4">React</p>
             </div>
@@ -44,7 +44,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto " src={Java} alt="HTML icon" />
               <p className="my-4">Java</p>
             </div>
@@ -52,7 +52,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className="  shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500">
+            <div className="  shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500">
               <div className="h-full flex flex-col justify-end">
                   <img className="w-20 mx-auto mb-4" src={Spring} alt="Spring Boot icon" />
                 <p className="my-4">Spring Boot</p>
@@ -62,7 +62,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className="shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className="shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
               <p className="my-4">HTML</p>
             </div>
@@ -70,7 +70,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
               <p className="my-4">CSS</p>
             </div>
@@ -78,7 +78,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
               <p className="my-4">JavaScript</p>
             </div>
@@ -94,7 +94,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={AWS} alt="HTML icon" />
               <p className="my-4">AWS</p>
             </div>
@@ -102,7 +102,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className="  shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500">
+            <div className="  shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500">
               <div className="h-full flex flex-col justify-end">
                   <img className="w-20 mx-auto mb-4" src={Docker} alt="Spring Boot icon" />
                 <p className="my-4">Docker</p>
@@ -112,7 +112,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className="  shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500">
+            <div className="  shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500">
               <div className="h-full flex flex-col justify-end">
                   <img className="w-20 mx-auto" src={Postman} alt="Spring Boot icon" />
                 <p className="my-4">Postman</p>
@@ -122,7 +122,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={Github} alt="HTML icon" />
               <p className="my-4">Github</p>
             </div>
@@ -130,7 +130,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
               <p className="my-4">Tailwind</p>
             </div>
@@ -138,7 +138,7 @@ function Skills() {
           <div
             className="justify-center flex"
           >
-            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
+            <div className=" shadow-sm hover:shadow-xl shadow-gray-500  md:max-w-fit min-w-[150px] rounded-md bg-[#132135] p-8  hover:-translate-y-2 duration-500 ">
               <img className="w-20 mx-auto" src={Firebase} alt="HTML icon" />
               <p className="my-4">Firebase</p>
             </div>

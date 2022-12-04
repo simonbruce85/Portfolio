@@ -15,12 +15,12 @@ function About() {
         data-aos="fade-up"
         data-aos-duration="500"
         data-aos-once="true"
-        className="px-8 py-4 rounded-lg max-w-[1700px] w-full"
+        className="px-8 py-4 rounded-lg max-w-[1500px] 3xl:max-w-[1650px] w-full"
       >
         <div className=" flex-col justify-center items-center py-4 max-w-[] w-full">
           <div className=" text-gray-300">
             <div className="text-left pb-4 pl-4">
-              <p className="text-4xl font-bold border-b-4 inline border-[#00F5A0] ">
+              <p className="text-4xl font-bold border-b-4 inline border-[#00f5c4] ">
                 About
               </p>
             </div>
@@ -49,27 +49,27 @@ function About() {
             </div>
             <div className="py-6 flex">
               <a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank">
-                <div className="px-4 py-2 my-2 items-center rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
+                <div className="px-4 py-2 my-2 items-center transition ease-in-out duration-100 rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
                   Resume
                 </div>
               </a>
             </div>
             <div className="md:grid md:grid-cols-3 gap-10 w-full text-gray-300">
               <div className="my-4">
-                <h1 className="border-b-2 border-[#00F5A0] w-fit">Education</h1>
+                <h1 className="border-b-2 border-[#00f5c4] w-fit">Education</h1>
                 <p>
                   Computer Engineer who graduated from Florida International
                   University (FIU) in August 2022
                 </p>
               </div>
               <div className="my-4">
-                <h1 className="border-b-2 border-[#00F5A0] w-fit">
+                <h1 className="border-b-2 border-[#00f5c4] w-fit">
                   Area of focus
                 </h1>
                 <p>Interested in the entire full-stack development spectrum</p>
               </div>
               <div className="my-4">
-                <h1 className="border-b-2 border-[#00F5A0] w-fit">Interests</h1>
+                <h1 className="border-b-2 border-[#00f5c4] w-fit">Interests</h1>
                 <p>Playing soccer, traveling, and spending time with friends</p>
               </div>
             </div>
