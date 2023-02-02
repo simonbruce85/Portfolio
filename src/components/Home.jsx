@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Link } from "react-scroll";
+import { Link } from "react-scroll";
 import Typed from "react-typed";
 import Astronaut from "../assets/iconweb.webp";
 
@@ -42,7 +42,7 @@ function Home() {
           >
             I am a{" "}
             <Typed
-              strings={["Computer Engineer", "Front-End Developer"]}
+              strings={["Computer Engineer", "Full-Stack Developer"]}
               typeSpeed={50}
               backSpeed={50}
               loop
@@ -75,7 +75,7 @@ function Home() {
           data-aos-once="true" 
         
         >
-          <img src={Astronaut} className=""/>
+          <img src={Astronaut} alt="" className=""/>
         </div>
       </div>
     </div>

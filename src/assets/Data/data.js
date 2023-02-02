@@ -1,57 +1,53 @@
-{
-    "portfolio": [
+import toDoList from "../../assets/toDoList.png"
+import cryptoTrack from "../../assets/cryptoTrack.png"
+import animalHospital from "../../assets/animalHospital.png"
+import netflixClone from "../../assets/netflixClone.png"
+import GBE from "../../assets/GBE.png"
+
+
+export default  [
         {
             "id": "0",
-            "name": "Animal Hospital Record V2",
+            "name": "Animal Hospital Record",
             "description": "Full-Stack Web Application used by an animal hospital to register patients' and owners' information and relevant data. Back-end and Front-end hosted on AWS using elastic beanstalk and RDS",
             "techs": ["React", "Spring Boot", "Postgres", "AWS"],
-            "img": "https://i.ibb.co/gZHrKS5/V2-copy.png",
+            "img": animalHospital,
             "github": "https://github.com/simonbruce85/kaninosca",
             "demo": "http://kaninoscaenv-env.eba-3cwbfzxq.us-east-2.elasticbeanstalk.com/"
         },
         {
             "id": "1",
-            "name": "Animal Hospital Record",
-            "description": "Web Application used by an animal hospital to register patients' and owners' information and relevant data about visits and health condition",
-            "techs": ["React", "Firebase", "Tailwind"],
-            "img": "https://i.ibb.co/RQhSTxv/Screen-Shot-2022-08-22-at-12-02-50-AM-60.png",
-            "github": "https://github.com/simonbruce85/AnimalHospital",
-            "demo": "https://kaninos-vet-clinic.netlify.app/"
-        },
-        {
-            "id": "2",
             "name": "Netflix Clone",
             "description": "Netflix clone application using Firebase to integrate authentication and save information about each individual user in firebase",
             "techs": ["React", "Firebase", "Movie Api"],
-            "img": "https://i.ibb.co/r3sYxVK/netflix.jpg",
+            "img": netflixClone,
             "github": "https://github.com/simonbruce85/netflix-clone",
             "demo": "https://netflix-clone-sime.netlify.app/"
         },
         {
-            "id": "3",
+            "id": "2",
             "name": "To-do List",
             "description": "To-do List application based on firebase interactiont to add, modify and delete tasks",
             "techs": ["React", "Firebase", "Tailwind"],
-            "img": "https://i.ibb.co/Rjkz7Zg/todo.jpg",
+            "img": toDoList,
             "github":"https://github.com/simonbruce85/TodoFirebase",
             "demo": "https://simons-to-do-list.netlify.app/"
         },{
-            "id": "4",
+            "id": "3",
             "name": "Growing Beyond Earth",
             "description": "Growing Beyond Earth Innovation Award winners in the NASA sponsored contest ''Growing Beyond Earth'' as the FIU team",
             "techs": ["Arduino", "Fusion 360", "Hardware"],
-            "img": "https://i.ibb.co/3F5L9Gn/gbe.jpg",
+            "img": GBE,
             "github":"/",
             "demo":"https://makeprojects.com/project/fiu-autonomous-farmer---year-3-collegiate-entry"
         },
         {
-            "id": "5",
+            "id": "4",
             "name": "Crypto Price Tracker",
             "description": "Website oriented to track the price of thousands of cryptocurrencies using CoinGecko API",
             "techs": ["React", "CoinGecko API", "Tailwind"],
-            "img": "https://i.ibb.co/zs6tcG5/cryptocurrency.png",
+            "img": cryptoTrack,
             "github":"https://github.com/simonbruce85/cryptoAPI",
             "demo": "https://crypto-price-api.netlify.app"
         }
     ]
-}

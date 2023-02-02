@@ -65,6 +65,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/simon-bruce-aa973b1b1/"
                 target="_blank"
                 id="icon-color"
+                rel="noreferrer"
               >
                 <LinkedinLogo style={{ width: "100px" }} />
               </a>
@@ -74,6 +75,7 @@ const Contact = () => {
                 className=" flex justify-between items-center w-full text-gray-300 "
                 href="https://github.com/simonbruce85"
                 target="_blank"
+                rel="noreferrer"
               >
                 <GitLogo className="w-[100px]"/>
               </a>

@@ -30,7 +30,6 @@ const Navbar = () => {
           <Link to="home" smooth={true} duration={500}>
             <img
               src={Logo}
-              alt="Logo Image"
               style={{ width: "50px" }}
               className="cursor-pointer"
               d="gradient__bg"
@@ -98,7 +97,7 @@ const Navbar = () => {
       </div>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className={` md:hidden z-40 `}>
+      <div onClick={handleClick} className={`${nav ? "fixed top-8 right-12":""} md:hidden z-40 `}>
         {!nav ? (
           <FaBars data-aos="flip-left" />
         ) : (
@@ -108,11 +107,11 @@ const Navbar = () => {
 
       {/* Mobile Menus*/}
       <ul
-        className={`absolute md:hidden ${
+        className={`fixed md:hidden ${
           nav ? "translate-x-0 " : "translate-x-full"
         } ${
           visible ? "" : "hidden"
-        } ease-in-out duration-500 top-0 right-0 rounded-lg h-screen w-1/2 bg-[#040c18] pt-16 flex flex-col shadow-md pb-4`}
+        } ease-in-out duration-500 z-10 top-0 right-0 rounded-lg h-screen w-1/2 bg-[#040c18] pt-16 flex flex-col shadow-md pb-4`}
       >
         <li className=" justify-center flex py-2">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
