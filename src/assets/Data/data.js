@@ -3,6 +3,7 @@ import cryptoTrack from "../../assets/cryptoTrack.png"
 import animalHospital from "../../assets/animalHospital.png"
 import netflixClone from "../../assets/netflixClone.png"
 import GBE from "../../assets/GBE.png"
+import HotSoup from "../../assets/hotSoup.png"
 
 
 export default  [
@@ -17,6 +18,14 @@ export default  [
         },
         {
             "id": "1",
+            "name": "HotSoup",
+            "description": "Open-source project to help those in need of finding soup kitchens in their local vicinity in 2-3 clicks or less to get them to their next hot, free meal. ",
+            "techs": ["React", "CSS", "API"],
+            "img": HotSoup,
+            "github": "https://github.com/HotSoupRepos/WebAppFrontEnd",
+        },
+        {
+            "id": "2",
             "name": "Netflix Clone",
             "description": "Netflix clone application using Firebase to integrate authentication and save information about each individual user in firebase",
             "techs": ["React", "Firebase", "Movie Api"],
@@ -25,7 +34,7 @@ export default  [
             "demo": "https://netflix-clone-sime.netlify.app/"
         },
         {
-            "id": "2",
+            "id": "3",
             "name": "To-do List",
             "description": "To-do List application based on firebase interactiont to add, modify and delete tasks",
             "techs": ["React", "Firebase", "Tailwind"],
@@ -33,7 +42,7 @@ export default  [
             "github":"https://github.com/simonbruce85/TodoFirebase",
             "demo": "https://simons-to-do-list.netlify.app/"
         },{
-            "id": "3",
+            "id": "4",
             "name": "Growing Beyond Earth",
             "description": "Growing Beyond Earth Innovation Award winners in the NASA sponsored contest ''Growing Beyond Earth'' as the FIU team",
             "techs": ["Arduino", "Fusion 360", "Hardware"],
@@ -42,7 +51,7 @@ export default  [
             "demo":"https://makeprojects.com/project/fiu-autonomous-farmer---year-3-collegiate-entry"
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Crypto Price Tracker",
             "description": "Website oriented to track the price of thousands of cryptocurrencies using CoinGecko API",
             "techs": ["React", "CoinGecko API", "Tailwind"],

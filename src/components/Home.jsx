@@ -2,14 +2,18 @@ import React from "react";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
 import Astronaut from "../assets/iconweb.webp";
+import Profile1 from "../assets/profile1.png";
+import Profile2 from "../assets/profile2.png";
+import Profile3 from "../assets/profile3.png";
+import Profile4 from "../assets/Simon.png";
 
 function Home() {
   return (
     <div
       name="home"
-      className="w-full h-full min-h-screen bg-gradient-to-r from-[#061326] via-[#040c18] to-[#040c18] pb-16 pt-16 md:pt-0 px-4 mx-auto flex justify-center "
+      className="w-full h-full md:min-h-screen bg-gradient-to-r from-[#061326] via-[#040c18] to-[#040c18] pb-16 pt-16 md:pt-0 px-4 mx-auto flex justify-center "
     >
-      <div className="max-w-[1300px] md:flex  ">
+      <div className="max-w-[1300px] md:flex  mb-8 md:mb-0">
         <div className="flex-col flex justify-center">
           <p
             className="text-[#ccd6f6]"
@@ -75,7 +79,7 @@ function Home() {
           data-aos-once="true" 
         
         >
-          <img src={Astronaut} alt="" className=""/>
+          <img src={Profile4} alt="" className="w-[300px]"/>
         </div>
       </div>
     </div>
