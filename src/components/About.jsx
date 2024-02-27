@@ -34,26 +34,26 @@ function About() {
               </p>
               <p className="text-justify indent-8 my-2">
                 Since the beginning of my degree, I have been learning different
-                programming languages such as Java and C, but I was very
-                interested in web applications: therefore, I am now focused on
-                web development, learning more every day about front-end and
-                back-end development from HTML, CSS, Javascript, and React, to
-                Java, Spring Boot, SQL and PostgreSQL.
+                programming languages such as Java and C. However, my passion lies
+                in web applications, prompting my current focus on web development.
+                Each day, I eagerly expand my knowledge of front-end and back-end development,
+                exploring everything from HTML, CSS, and Javascript to React, Java,
+                Spring Boot, SQL, and PostgreSQL.
               </p>
               <p className="text-justify indent-8">
-                I believe in lifelong learning and continuous improvement, so
-                here I am, trying my best. Please take a look at my most recent
+                I believe in lifelong learning and continuous improvement.
+                Please take a look at my most recent
                 projects and don't hesitate to contact me to connect or if you
                 have any questions
               </p>
             </div>
-            <div className="py-6 flex">
+            {/* <div className="py-6 flex">
               <a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank">
                 <div className="px-4 py-2 my-2 items-center transition ease-in-out duration-100 rounded font-medium cursor-pointer bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] hover:scale-105">
                   Resume
                 </div>
               </a>
-            </div>
+            </div> */}
             <div className="md:grid md:grid-cols-3 gap-10 w-full text-gray-300">
               <div className="my-4">
                 <h1 className="border-b-2 border-[#00f5c4] w-fit">Education</h1>
